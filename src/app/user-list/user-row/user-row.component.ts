@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
+import { User } from '../user';
 
 @Component({
   selector: 'app-user-row',
@@ -6,5 +7,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./user-row.component.scss']
 })
 export class UserRowComponent {
+
+  @Input() user!: User;
 
 }

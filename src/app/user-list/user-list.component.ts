@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { User } from './user';
+import { USERS } from './users.mock';
 
 @Component({
   selector: 'app-user-list',
@@ -7,4 +9,5 @@ import { Component } from '@angular/core';
 })
 export class UserListComponent {
 
+  users : User[] = USERS;
 }
