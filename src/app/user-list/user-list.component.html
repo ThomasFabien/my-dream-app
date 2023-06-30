@@ -1,0 +1,9 @@
+<div class="grid">
+    <a *ngFor="let u of users">
+       <app-user-row [user]="u"></app-user-row>
+    </a>
+</div>
+
+<div>
+    <app-user-form (output)="addUser($event)"></app-user-form>
+</div>
