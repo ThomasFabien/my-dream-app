@@ -1,7 +1,11 @@
 <form [formGroup]="userForm" (ngSubmit) ='onSubmit()'>
     <label for="1">firstname</label>
-    <input type="text" name="" id="1" formControlName="firstname">
+    <input type="text" name="" id="1" formControlName="firstname"><br>
     <label for="2">lastname</label>
-    <input type="text" name="" id="2" formControlName="lastname">
+    <input type="text" name="" id="2" formControlName="lastname"><br>
+    <label for="3">username</label>
+    <input type="text" name="" id="3" formControlName="username"><br>
+    <label for="4">email</label>
+    <input type="email" name="" id="4" formControlName="email"><br>
     <button type="submit">Envoyer</button>
 </form>
