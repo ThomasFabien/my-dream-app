@@ -14,7 +14,7 @@ export class UserFormComponent {
     lastname: new FormControl(''),
     email: new FormControl(''),
     username: new FormControl(''),
-    
+    avatar: new FormControl('')
   })
   @Output() output = new EventEmitter<User>();
   
